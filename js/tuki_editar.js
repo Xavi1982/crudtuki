@@ -41,7 +41,7 @@ function modificar(){
     fetch(url, options)
     .then(function(){
         alert('El tuki fue editado exitosamente');
-        window.location.href = './tukis.html';
+        window.location.href = './clientes_tukis.html';
     })
     .catch(err=> {
         alert('No pudo modificarse el tuki');

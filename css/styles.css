@@ -2,14 +2,49 @@ html {
     background-color: #212121;
 }
 
-main {
-    background-color: #212121;
-    display: flex;
-    justify-content: center;
+h1 {
+    padding: 2rem 0 1rem;
+}
+
+.container_nuevo {
     padding-top: 7rem;
 }
 
-.tarjeta {    
+.container_editar {
+    padding-top: 7rem;
+}
+
+header img {
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    margin: .5rem;
+}
+
+main {
+    background-color: #212121;
+}
+
+.contenedor_tarjetas {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.titulo {
+    padding-top: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_icono img{
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+}
+
+.tarjeta {
     margin: 0 4rem;
     width: 230px;
     height: 280px;
@@ -95,7 +130,7 @@ p {
 /* ----------------------------------- Boton -------------------------------------- */
 
 .footer {
-    padding: 5rem;
+    padding: 3rem;
     background-color: #212121;
 }
 
@@ -122,6 +157,11 @@ p {
         -13px -13px 10px #262626;
 }
 
+.boton a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .boton:hover {
     box-shadow: var(--hover-shadows);
 }
@@ -131,4 +171,30 @@ p {
         var(--accent) 0px 0px 30px 5px;
     background-color: var(--accent);
     transform: scale(0.95);
+}
+
+
+/* Seccion de formulario */
+
+.contacto_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    width: 50%;
+    margin-left: 4rem;
+    padding: 4rem 6rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.container_logo_formulario {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.logo_formulario {
+    width: 500px;
 }

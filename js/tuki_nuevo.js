@@ -21,7 +21,7 @@ function guardar(){
     fetch(url, options)
     .then(function(){
         alert("Producto agregado exitosamente");
-        window.location.href = './tukis.html'
+        window.location.href = './clientes_tukis.html'
     })
     .catch(error => {
         alert('No pudo agregarse el producto');
